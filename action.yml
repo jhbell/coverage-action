@@ -1,0 +1,6 @@
+# action.yml
+name: 'Coverage Example'
+description: 'compute code coverage and comment on a PR'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
