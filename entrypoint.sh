@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello, world!"
+pip install -r requirements.txt
+python add_numbers.py
