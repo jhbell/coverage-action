@@ -2,6 +2,8 @@
 def add(a, b):
     return a + b
 
-if __name__ == '__main__':
-    result = add(2, 5)
-    print(f'Your result: {result}')
+def add_many(*values):
+    result = 0
+    for value in values:
+        result = add(result, value)
+    return result

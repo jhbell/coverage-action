@@ -1,3 +1,4 @@
 #!/bin/bash
 pip install -r requirements.txt
-python add_numbers.py
+coverage run -m unittest discover
+coverage report
