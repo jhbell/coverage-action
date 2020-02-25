@@ -21,3 +21,6 @@ class TestAddNumbers(unittest.TestCase):
 
     def test_add_many_many(self):
         self.assertEqual(add_many(10, 12, -7, 400), 415)
+
+    def test_add_many_wrong(self):
+        self.assertEqual(add_many(2, 2), 'fish')
